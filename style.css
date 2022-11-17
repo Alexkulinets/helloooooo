@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page-wrapper{
+    width: 905px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+}
+.header, footer{
+    padding: 1px;
+    height: 182px;
+    background: rgb(255, 255, 255);
+}
+.main{
+    height: 1872px;
+    font-size: 0;
+}.card{
+    display: inline-block;
+    height: 516px;
+    width: 420px;
+
+}
+.right{
+    margin-left: 65px;
+}
+.long{
+    height: 546px;
+}
+
+
+
+
+.card:nth-child(3), .card:nth-child(4){
+    margin-top: 130px;
+    background: rgb(255, 255, 255);  
+    
+}
+.card:nth-child(5), .card:nth-child(6){ 
+    margin-top: 126px;
+    background: rgb(255, 255, 255)
+}
+.nav{
+    width: 554px;
+    height: 30px;
+    margin: 68px auto 0;
+}
+.menu{
+    font-size: 0;
+}
+.list-item{
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 97px;
+    line-height: 30px;
+
+}
+
+
+.list-item1{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(0, 174, 255);
+}
+
+
+
+
+
+
+
+.list-item:nth-child(1){
+    margin-left: 0;
+}
+.card-img{
+    width: 420px;
+    height: 280px;
+}
+.section-name{
+    margin-top: 32px;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #b9b2a3;
+}
+
+
+
+.section-title{
+    font-size: 30px;
+    padding: 1px;
+    color: #626262;
+    margin-top: 32px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.card:nth-child(1) .section-name, .card:nth-child(2) .section-name{
+    margin-top: 62px;
+    }
+
+    .section-text{
+        margin-top: 40px;
+        font-size: 14px;
+        color: #626262;
+        font-family: 'Playfair Display', serif;
+    }
+
+.button {
+    margin: 0 auto;
+    margin-top: 52px;
+    display: block;
+    font-size: 14px;
+    box-align: center;
+    color: #626262;
+    background: rgb(255, 255, 255);
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #626262;
+    border-color: #626262;  
+    height: 60px;
+    width: 165px;
+    text-decoration: #ffffff;
+}
+
+
+.button:hover {
+    background: rgb(183, 182, 182);
+}
+
+
+
+.button:active {
+
+    background-color: rgb(255, 255, 255);
+}
